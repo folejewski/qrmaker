@@ -1,0 +1,25 @@
+{
+  "name": "qrmaker",
+  "version": "1.0.0",
+  "description": "A simple Node.js command-line tool that generates QR codes using Inquirer.js prompts and the qr-image library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/folejewski/qrmaker.git"
+  },
+  "keywords": [],
+  "author": "Maciej Folejewski",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/folejewski/qrmaker/issues"
+  },
+  "homepage": "https://github.com/folejewski/qrmaker#readme",
+  "dependencies": {
+    "inquirer": "^13.3.2",
+    "qr-image": "^3.2.0"
+  }
+}
